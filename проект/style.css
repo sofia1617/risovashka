@@ -1,0 +1,14 @@
+body::before {
+  content: '';
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  background: url('https://phonoteka.org/uploads/posts/2021-05/1621386777_11-phonoteka_org-p-fon-dlya-kollazha-estetika-16.jpg'); /* Путь к картинке */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  filter: blur(0px); /* Размытие картинки */
+}
